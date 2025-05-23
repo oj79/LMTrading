@@ -1,0 +1,13 @@
+runtime: custom
+env: flex
+entrypoint: streamlit run TradingApp.py --server.port $PORT --server.address 0.0.0.0
+
+runtime_config:
+  # (Optional) specify a Python version if needed
+  runtime_version: "3.12"
+
+
+# Optional: environment variables, etc.
+env_variables:
+  # e.g. store an OpenAI API key or something if you prefer
+  OPENAI_API_KEY: ${OPENAI_API_KEY}
