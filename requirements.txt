@@ -1,0 +1,9 @@
+streamlit
+requests
+google-auth
+google-auth-oauthlib
+google-cloud-firestore
+openai
+yfinance
+pandas
+python-dotenv
